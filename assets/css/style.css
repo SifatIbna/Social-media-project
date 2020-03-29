@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'The Amazing Spiderman';
+    src: url("../fonts/The Amazing Spider-Man.ttf");
+}
+
+@font-face {
+    font-family: 'funsized';
+    src: url("../fonts/FunSized.ttf");
+}
+
+@font-face {
+    font-family: 'KG Happy';
+    src: url("../fonts/KGHAPPY.ttf");
+}
+
+@font-face {
+    font-family: 'Funny Kid';
+    src: url("../fonts/FunnyKid.ttf");
+}
+
+@font-face {
+    font-family: "ARNORG";
+    src: url("../fonts/ARNORG__.TTF");
+}
+
+@font-face {
+    font-family: "Outrun future Bold";
+    src: url("../fonts/Outrun future Bold.otf");
+}
+
+body {
+    background-color: #c3c3c3;
+}
+
+
+.top_bar {
+    width: 100%;
+    height: 50px;
+    background-color: #576574;
+    border-bottom: 0.25em solid #576574;
+    min-width: 1050px;
+    margin: 0 0 5px 0;
+    display: inline-flex;
+    position: fixed;
+}
+
+
+
+.logo a {
+    text-decoration: none;
+    font-family: "KG Happy",sans-serif;
+    color: #c3c3c3;
+    font-size: 150%;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 10px ;
+}
+
+/*.logo{
+    font-family: "KG Happy",sans-serif;
+    margin-left: 10px;
+    font-size: 150%;
+    position: relative;
+    top: 9px;
+    color: #c3c3c3;
+    text-decoration: none;
+}*/
+
+a:hover{
+    color: #c3c3c3;
+    text-decoration: none;
+}
+
+nav {
+    //float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px ;
+}
+
+nav a{
+
+    position: relative;
+    color: #4d180d;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Funny Kid",sans-serif;
+    font-size: 125%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 70px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.columns {
+    background-color: #a7a7a7;
+    padding: 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 7px;
+    box-shadow: 3px 2px 2px #716356;
+    z-index: -1;
+}
+
+
+
+.user_details {
+    font-family: funsized,sans-serif;
+
+    width: 330px;
+    float: left;
+    margin-bottom: 20px;
+}
+.user_details_left_right{
+
+    width: 125px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 12px;
+
+}
+.user_details_left_right img{
+    height: 125px;
+    border-radius: 20px;
+
+}
+.user_details_left_right a{
+    font-family: "KG Happy",sans-serif;
+    color: #4a4a4a;
+}
+.user_details_left_right a:hover{
+    //font-family: "KG Happy",sans-serif;
+    color: #716356;
+    font-size: 97%;
+}
+
+.main_column {
+    float: right;
+    width: 65%;
+    z-index: -1;
+    min-height: 160px;
+}
+
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea {
+    width: 80%;
+    height: 80px;
+    border-radius: 12px ;
+    margin-right: 5px;
+    border: 2px solid #716356;
+    font-size: 18px;
+    font-family: "ARNORG",sans-serif;
+}
+
+.post_form input[type='submit'] {
+    position: absolute;
+    font-size: 90%;
+    height: 30px;
+    width: 10%;
+    border: none;
+    border-radius: 7px;
+    font-family: "Outrun future Bold",sans-serif;
+}
+
+.post_form input[type='submit']:active {
+    padding: 5px 4px 5px 4px;
+    color: #f40810;
+    text-decoration: none;
+}
